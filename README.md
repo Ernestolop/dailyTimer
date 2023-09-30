@@ -15,7 +15,7 @@ Esta aplicación es una herramienta valiosa para aquellos que desean optimizar l
 ![Daily Timer versión móvil](./public/images/mobileVersion.png)
 ![Daily Timer - Sección de Guía](./public/images/guideSection.png)
 ![Daily Timer - Seccion de configuraciones](./public/images/settingsSection.png)
-![Daily Timer - Tiempo menor al 60%](./public/images/normalTime.pngpng)
+![Daily Timer - Tiempo menor al 60%](./public/images/normalTime.png)
 ![Daily Timer - Tiempo mayor al 60% y menor al 80%](./public/images/alertTime.png)
 ![Daily Timer - Tiempo mayor al 80%](./public/images/dangerTime.png)
 
