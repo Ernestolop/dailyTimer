@@ -277,14 +277,6 @@ svg {
   color: var(--bg-color-light);
 }
 
-.footer{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: var(--gap-10);
-}
-
-
 .questions {
   margin-block: var(--gap-50);
   display: flex;
@@ -305,6 +297,15 @@ svg {
   to {
     opacity: 1;
   }
+}
+
+.footer__link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--gap-10);
+  text-decoration: none;
+  color: var(--text-color);
 }
 
 .footer__svg{
