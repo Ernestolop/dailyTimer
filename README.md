@@ -41,13 +41,12 @@ Nota: Tiempo mayor al Límite resultará en un efecto de parpadeo en el borde de
 Nota: En dispositivos móviles el Timer se maneja a tráves de botones.
 
 ## Contribución
-Si deseas contribuir a este proyecto, sigue estos pasos:
-1. Haz un fork del repositorio.
-2. Clona tu fork en tu máquina local.
-3. Crea una nueva rama para tu contribución: `git checkout -b mi-contribucion`
-4. Realiza tus cambios y commitea: `git commit -m "Agrega mi contribución"`
-5. Haz un push a tu rama: `git push origin mi-contribucion`
-6. Crea una solicitud de extracción (Pull Request) en GitHub.
+
+Si deseas contribuir a dailyTimer, por favor lee nuestras [pautas de contribución](./CONTRIBUTING.md).
+
+### Informar Problemas o Sugerir Funcionalidades
+
+Si encuentras un problema o tienes una sugerencia para una nueva funcionalidad, por favor [crea un nuevo issue](https://github.com/Ernestolop/dailyTimer/issues).
 
 ## Licencia
 Este proyecto está bajo la licencia MIT.
