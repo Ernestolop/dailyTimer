@@ -1,8 +1,9 @@
 import { useState } from 'react';
-import { useSettings } from '../../hooks';
+import { useSettings, useUi } from '../../hooks';
 const Settings = () => {
 
-  const { maxTimeSeconds, updateMaxTimeSeconds, handleModal, handleAlert } = useSettings();
+  const { maxTimeSeconds, updateMaxTimeSeconds } = useSettings();
+  const { handleModal, handleAlert } = useUi();
   const [maxTimeSecondsInput, setMaxTimeSecondsInput] = useState(maxTimeSeconds);
 
   const handleSubmit = e => {

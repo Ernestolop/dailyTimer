@@ -1,8 +1,8 @@
 import { useContext } from "react";
-import { SettingsContext } from "../context/settings";
+import { UiContext } from "../context/ui";
 
 const useSettings = () => {
-    return useContext(SettingsContext);
+    return useContext(UiContext);
 }
 
 export default useSettings;
