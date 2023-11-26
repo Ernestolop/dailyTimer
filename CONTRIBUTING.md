@@ -26,7 +26,7 @@ Sigue estos pasos para levantar el proyecto localmente:
 1. Clona el repositorio: `git clone https://github.com/tu-usuario/tu-proyecto.git`
 2. Ingresa al directorio del proyecto: `cd tu-proyecto`
 3. Instala las dependencias: `npm install`
-4. Inicia la aplicación: `vite`
+4. Inicia la aplicación: `npm run dev`
 5. Abre tu navegador y visita `http://localhost:3000`
 
 ## Sigue las convenciones del proyecto
@@ -34,6 +34,7 @@ Sigue estos pasos para levantar el proyecto localmente:
 - Enfoque Destok First.
 - Css escrito con la metodología de BEM.
 - useContext de react para manejar el estado Global de la aplicación.
+- Iconos svg de [Heroicons](https://heroicons.com/).
 
 ## Reportar Problemas
 
