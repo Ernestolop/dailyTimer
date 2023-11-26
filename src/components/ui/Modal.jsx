@@ -1,11 +1,11 @@
-import { useSettings } from '../../hooks';
+import { useUi } from '../../hooks';
 import { Settings, ShortcutsGuide } from '../app';
 
 const ModalAdd = () => {
 
-    const { handleModal, modalContent } = useSettings();
+    const { handleModal, modal } = useUi();
 
-    const { title, type } = modalContent;
+    const { title, type } = modal;
 
     document.addEventListener('keydown', e => {
         if (e.key === 'x') {

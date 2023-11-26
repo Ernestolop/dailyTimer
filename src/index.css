@@ -81,6 +81,8 @@ svg {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  max-width: 1200px;
+  margin-inline: auto;
 }
 
 /* BEM Components */
@@ -317,6 +319,7 @@ svg {
   left: 0;
   width: 100%;
   height: 100vh;
+  overflow-y: scroll;
   background-color: rgba(0, 0, 0, 0.80);
   display: flex;
   justify-content: center;

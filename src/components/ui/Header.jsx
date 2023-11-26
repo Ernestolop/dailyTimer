@@ -1,8 +1,8 @@
-import { useSettings } from '../../hooks';
+import { useUi } from '../../hooks';
 
 const Header = () => {
 
-    const { handleModal } = useSettings();
+    const { handleModal } = useUi();
 
     return (
         <header className='header'>
