@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 const Alert = ({ type, message }) => {
     return (
         <div className={`alert alert--${type}`}>
@@ -7,6 +9,11 @@ const Alert = ({ type, message }) => {
             <p className="alert__message">{message}</p>
         </div>
     )
+}
+
+Alert.propTypes = {
+    type: PropTypes.string,
+    message: PropTypes.string
 }
 
 export default Alert;
