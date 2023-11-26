@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
+import PropTypes from 'prop-types';
 
 const Timer = ({ maxTimeSeconds }) => {
   const maxTimeMiliseconds = maxTimeSeconds * 1000;
@@ -100,6 +101,10 @@ const Timer = ({ maxTimeSeconds }) => {
       </footer>
     </section>
   );
+};
+
+Timer.propTypes = {
+  maxTimeSeconds: PropTypes.number,
 };
 
 export default Timer;
