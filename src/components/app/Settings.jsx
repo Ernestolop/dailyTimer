@@ -1,6 +1,5 @@
 import { useState } from 'react';
-import useSettings from '../hooks/useSettings';
-
+import { useSettings } from '../../hooks';
 const Settings = () => {
 
   const { maxTimeSeconds, updateMaxTimeSeconds, handleModal, handleAlert } = useSettings();

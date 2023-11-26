@@ -1,6 +1,5 @@
-import useSettings from "../hooks/useSettings";
-import Settings from "./Settings";
-import ShortcutsGuide from "./ShortcutsGuide";
+import { useSettings } from '../../hooks';
+import { Settings, ShortcutsGuide } from '../app';
 
 const ModalAdd = () => {
 

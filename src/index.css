@@ -177,7 +177,6 @@ svg {
   min-height: 400px;
 }
 
-/* ajustar los min-height dependiendo del alto de la pantalla */
 @media screen and (min-height: 900px) {
   .timer {
     min-height: 500px;
