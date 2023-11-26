@@ -1,5 +1,5 @@
-import { useState } from 'react'
-import useSettings from '../hooks/useSettings'
+import { useState } from 'react';
+import useSettings from '../hooks/useSettings';
 
 const Settings = () => {
 

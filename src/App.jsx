@@ -1,11 +1,11 @@
-import useSettings from './hooks/useSettings'
-import Header from './components/Header'
-import Timer from './components/Timer'
-import DailyScrumQuestions from './components/DailyScrumQuestions'
-import Footer from './components/Footer'
-import Modal from './components/Modal'
-import Alert from './components/Alert'
-import './index.css'
+import useSettings from './hooks/useSettings';
+import Header from './components/Header';
+import Timer from './components/Timer';
+import DailyScrumQuestions from './components/DailyScrumQuestions';
+import Footer from './components/Footer';
+import Modal from './components/Modal';
+import Alert from './components/Alert';
+import './index.css';
 
 function App() {
 
@@ -27,4 +27,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
