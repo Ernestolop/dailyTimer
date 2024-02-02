@@ -6,7 +6,7 @@ const ShortcutsGuide = () => {
           <strong>Iniciar:</strong> Presiona la tecla <code>espacio</code> para comenzar el temporizador.
         </li>
         <li className='shortcuts__item'>
-          <strong>Pausar:</strong> Presiona la tecla <code>p</code> para detener temporalmente el temporizador.
+          <strong>Pausar:</strong> Presiona la tecla <code>espacio</code> con el temporizador iniciado para detenerlo temporalmente.
         </li>
         <li className='shortcuts__item'>
           <strong>Resetear:</strong> Presiona la tecla <code>Escape</code> para reiniciar el temporizador a cero.
