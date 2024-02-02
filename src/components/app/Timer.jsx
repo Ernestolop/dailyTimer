@@ -29,6 +29,8 @@ const Timer = ({ maxTimeSeconds }) => {
           };
         });
       }, 10);
+    }else{
+      pauseTimer();
     }
   };
 
@@ -51,18 +53,19 @@ const Timer = ({ maxTimeSeconds }) => {
   };
 
   const handleKeyPress = event => {
-    const key = event.key;
-    if (key === ' ') {
-      startTimer();
-    } else if (key === 'p') {
-      pauseTimer();
-    } else if (key === 'Escape') {
+    const keyCode = event.keyCode;
+  
+    if (keyCode === 32) { // Space key
+      startTimer(!isActive);
+    } else if (keyCode === 27) { // Escape key
       resetTimer();
-    } else if (key === 'Enter') {
+    } else if (keyCode === 13) { // Enter key
       restartTimer();
     }
-    setLastKeyPressed(key);
+  
+    setLastKeyPressed(keyCode);
   };
+  
 
   useEffect(() => {
     document.addEventListener('keydown', handleKeyPress);
@@ -70,7 +73,7 @@ const Timer = ({ maxTimeSeconds }) => {
     return () => {
       document.removeEventListener('keydown', handleKeyPress);
     };
-  }, [lastKeyPressed]);
+  }, [lastKeyPressed, isActive]);
 
   useEffect(() => {
     return () => {
